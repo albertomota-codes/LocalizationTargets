@@ -12,20 +12,36 @@
 		3AEA98AE21CC161600D2503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98AC21CC161600D2503E /* Main.storyboard */; };
 		3AEA98B021CC161800D2503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98AF21CC161800D2503E /* Assets.xcassets */; };
 		3AEA98B321CC161800D2503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98B121CC161800D2503E /* LaunchScreen.storyboard */; };
+		3AEA98BE21CC173200D2503E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA98AA21CC161600D2503E /* ViewController.swift */; };
+		3AEA98BF21CC173200D2503E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA98A821CC161600D2503E /* AppDelegate.swift */; };
+		3AEA98C221CC173200D2503E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98B121CC161800D2503E /* LaunchScreen.storyboard */; };
+		3AEA98C321CC173200D2503E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98AF21CC161800D2503E /* Assets.xcassets */; };
+		3AEA98C421CC173200D2503E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA98AC21CC161600D2503E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AEA98A521CC161600D2503E /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEA98A521CC161600D2503E /* TargetA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA98A821CC161600D2503E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AEA98AA21CC161600D2503E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AEA98AD21CC161600D2503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AEA98AF21CC161800D2503E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEA98B221CC161800D2503E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AEA98B421CC161800D2503E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AEA98BA21CC16A600D2503E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3AEA98BB21CC16A700D2503E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3AEA98C821CC173200D2503E /* TargetB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AEA98C921CC173200D2503E /* LocalizationTargets copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizationTargets copy-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3AEA98A221CC161600D2503E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AEA98C021CC173200D2503E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,20 +54,22 @@
 		3AEA989C21CC161600D2503E = {
 			isa = PBXGroup;
 			children = (
-				3AEA98A721CC161600D2503E /* test */,
+				3AEA98A721CC161600D2503E /* LocalizationTargets */,
 				3AEA98A621CC161600D2503E /* Products */,
+				3AEA98C921CC173200D2503E /* LocalizationTargets copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		3AEA98A621CC161600D2503E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AEA98A521CC161600D2503E /* test.app */,
+				3AEA98A521CC161600D2503E /* TargetA.app */,
+				3AEA98C821CC173200D2503E /* TargetB.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AEA98A721CC161600D2503E /* test */ = {
+		3AEA98A721CC161600D2503E /* LocalizationTargets */ = {
 			isa = PBXGroup;
 			children = (
 				3AEA98A821CC161600D2503E /* AppDelegate.swift */,
@@ -61,15 +79,15 @@
 				3AEA98B121CC161800D2503E /* LaunchScreen.storyboard */,
 				3AEA98B421CC161800D2503E /* Info.plist */,
 			);
-			path = test;
+			path = LocalizationTargets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AEA98A421CC161600D2503E /* test */ = {
+		3AEA98A421CC161600D2503E /* TargetA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AEA98B721CC161800D2503E /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 3AEA98B721CC161800D2503E /* Build configuration list for PBXNativeTarget "TargetA" */;
 			buildPhases = (
 				3AEA98A121CC161600D2503E /* Sources */,
 				3AEA98A221CC161600D2503E /* Frameworks */,
@@ -79,9 +97,26 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = TargetA;
 			productName = test;
-			productReference = 3AEA98A521CC161600D2503E /* test.app */;
+			productReference = 3AEA98A521CC161600D2503E /* TargetA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AEA98BC21CC173200D2503E /* TargetB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AEA98C521CC173200D2503E /* Build configuration list for PBXNativeTarget "TargetB" */;
+			buildPhases = (
+				3AEA98BD21CC173200D2503E /* Sources */,
+				3AEA98C021CC173200D2503E /* Frameworks */,
+				3AEA98C121CC173200D2503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TargetB;
+			productName = test;
+			productReference = 3AEA98C821CC173200D2503E /* TargetB.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3AEA98A021CC161600D2503E /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 3AEA98A021CC161600D2503E /* Build configuration list for PBXProject "LocalizationTargets" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +147,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AEA98A421CC161600D2503E /* test */,
+				3AEA98A421CC161600D2503E /* TargetA */,
+				3AEA98BC21CC173200D2503E /* TargetB */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +164,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AEA98C121CC173200D2503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA98C221CC173200D2503E /* LaunchScreen.storyboard in Resources */,
+				3AEA98C321CC173200D2503E /* Assets.xcassets in Resources */,
+				3AEA98C421CC173200D2503E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,6 +186,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AEA98BD21CC173200D2503E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA98BE21CC173200D2503E /* ViewController.swift in Sources */,
+				3AEA98BF21CC173200D2503E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -147,6 +202,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3AEA98AD21CC161600D2503E /* Base */,
+				3AEA98BA21CC16A600D2503E /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +211,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3AEA98B221CC161800D2503E /* Base */,
+				3AEA98BB21CC16A700D2503E /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -284,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SW5358BQEF;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LocalizationTargets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +361,43 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SW5358BQEF;
-				INFOPLIST_FILE = test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LocalizationTargets/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mota.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AEA98C621CC173200D2503E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW5358BQEF;
+				INFOPLIST_FILE = "LocalizationTargets copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mota.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AEA98C721CC173200D2503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW5358BQEF;
+				INFOPLIST_FILE = "LocalizationTargets copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AEA98A021CC161600D2503E /* Build configuration list for PBXProject "test" */ = {
+		3AEA98A021CC161600D2503E /* Build configuration list for PBXProject "LocalizationTargets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AEA98B521CC161800D2503E /* Debug */,
@@ -326,11 +421,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AEA98B721CC161800D2503E /* Build configuration list for PBXNativeTarget "test" */ = {
+		3AEA98B721CC161800D2503E /* Build configuration list for PBXNativeTarget "TargetA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AEA98B821CC161800D2503E /* Debug */,
 				3AEA98B921CC161800D2503E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AEA98C521CC173200D2503E /* Build configuration list for PBXNativeTarget "TargetB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AEA98C621CC173200D2503E /* Debug */,
+				3AEA98C721CC173200D2503E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
